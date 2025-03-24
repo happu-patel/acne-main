@@ -1,0 +1,240 @@
+.our-expert {
+  min-height: 211px;
+
+  background: #03afa1;
+
+  color: #ffffff;
+}
+
+.our-expert .txt-exp {
+  font-size: 23px;
+
+  font-weight: 600;
+
+  line-height: 38px;
+
+  text-transform: uppercase;
+}
+
+.our-expert .txt-exp b {
+  font-size: 35px;
+
+  font-weight: inherit;
+
+  text-transform: initial;
+}
+
+.our-expert .btn {
+  font-size: 23px;
+
+  height: 50px;
+
+  padding: 7px;
+}
+
+.our-expert .btn.btn-book {
+  min-width: 387px;
+}
+
+.our-expert .btn.btn-wp {
+  min-width: 250px;
+}
+
+.our-expert .btn + .btn {
+  margin-top: 8px;
+}
+
+.our-expert .btn i {
+  font-size: 35px;
+
+  vertical-align: -5px;
+
+  margin-left: 8px;
+}
+.our-expert .btn-exp {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .our-expert .container {
+    justify-content: center !important;
+  }
+
+  .our-expert .txt-exp {
+    max-width: 100%;
+
+    text-align: center;
+  }
+
+  .our-expert .btn-exp {
+    margin-top: 10px;
+  }
+
+  .our-expert .btn.btn-wp {
+    margin-left: 0px !important;
+  }
+}
+
+
+@media (max-width: 1450px)
+
+{
+    .our-expert .btn
+
+    {
+
+        font-size: 16px;
+
+        height: 41px;
+
+        padding: 8px;
+
+    }
+
+    .our-expert .btn i 
+
+    {
+
+        font-size: 28px;
+
+        vertical-align: -5px;
+
+        margin-left: 5px;
+
+    }
+
+    .our-expert .btn.btn-book 
+
+    {
+
+        min-width: 290px;
+
+    }
+
+    .our-expert .btn.btn-wp 
+
+    {
+
+        min-width: 200px;
+
+    }
+}
+
+@media (max-width:1199px)
+
+{
+    .our-expert
+
+    {
+
+        min-height: 160px;
+
+    }
+
+    .our-expert .txt-exp
+
+    {
+
+        font-size: 20px;
+
+    }
+
+    .our-expert .txt-exp b
+
+    {
+
+        font-size: 30px;
+
+    }
+}
+
+@media  (max-width:991px)
+
+{
+    .our-expert .txt-exp
+
+    {
+
+        max-width: 350px;
+
+    }
+
+    .our-expert
+
+    {
+
+        min-height: initial;
+
+        padding: 30px 0px;
+
+    }
+
+    .our-expert .txt-exp b
+
+    {
+
+        display: block;
+
+        font-size: 25px;
+
+        margin-bottom: 15px;
+
+    }
+
+    .our-expert .txt-exp
+
+    {
+
+        font-size: 16px;
+
+        line-height: 25px;
+
+    }
+
+    .our-expert .txt-exp br
+
+    {
+
+        display: none;
+
+    }
+
+}
+
+@media (max-width:767px)
+
+{
+    .our-expert .container
+
+    {
+
+        justify-content: center !important;
+
+    }
+
+    .our-expert .txt-exp
+
+    {
+
+        max-width: 100%;
+
+        text-align: center;
+
+    }
+
+    .our-expert .btn-exp
+
+    {
+
+        margin-top:10px;
+
+    }
+
+    .our-expert .btn.btn-wp
+
+    {
+
+        margin-left: 0px !important;
+
+    }
+}
